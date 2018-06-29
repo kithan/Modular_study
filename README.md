@@ -10,22 +10,22 @@
 - [JIMU](https://github.com/mqzhangw/JIMU)：得到组件化框架 **3000** star
    - 自定义路由框架，也可以使用Arouter
    - ![arc](https://i.imgur.com/HYWGsTh.png)
-   - 模块依赖图
-         - **app**:演示app，根据需要配置需要的相关组件。
-         - **basiclib**:基础库，如网络、图片加载、数据库、json、日志等
-         - **basicres**:基础资源库，如通用样式，基础图片、selector，基础动画资源等
-         - **build-gradle**:
+   - 模块依赖
+        - **app**:演示app，根据需要配置需要的相关组件。
+        - **basiclib**:基础库，如网络、图片加载、数据库、json、日志等
+        - **basicres**:基础资源库，如通用样式，基础图片、selector，基础动画资源等
+        - **build-gradle**:
             - 实现代码隔离、组件单独调试
             - 组件注册：利用TrasnformAPI + javassist将各组件的IApplicationLike的注册代码自定义到application.onCreate
             - 生成UIRouterTable：各组件路由映射表
-         - **componentlib**:组件化核心：路由Router/UIRouter,IApplicationlike等管理
-         - **componentservice**:所有组件对外提供服务接口定义
-         - **router-annotation**:注解定义Autowired,RouteNode
-         - **router-anno-compiler**:
+        - **componentlib**:组件化核心：路由Router/UIRouter,IApplicationlike等管理
+        - **componentservice**:所有组件对外提供服务接口定义
+        - **router-annotation**:注解定义Autowired,RouteNode
+        - **router-anno-compiler**:
             - 利用apt生成各组件UIRouter，路径均为com.luojilab.gen.router，页面路由的注册采用手动在组件IApplicationLike中进行注册
             - 利用apt进行页面参数的解析，借鉴Arouter
-         - **readercomponent**:reader组件，依赖componentservice+router-anno-compiler
-         - **sharecomponent**:分享组件，依赖componentservice+router-anno-compiler
+        - **readercomponent**:reader组件，依赖componentservice+router-anno-compiler
+        - **sharecomponent**:分享组件，依赖componentservice+router-anno-compiler
 
 
 - 百链 [CC](https://github.com/luckybilly/CC): **2300** star
