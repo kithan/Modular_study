@@ -9,7 +9,8 @@
    - MVP开发模式：MVP+Rxjava2+Retrofit2+Glide+Dagger2+ButterKnife
 - [JIMU](https://github.com/mqzhangw/JIMU)：得到组件化框架 **3000** star
    - 自定义路由框架，也可以使用Arouter
-   - 模块依赖图：![](https://i.imgur.com/HYWGsTh.png)
+   - ![arc](https://i.imgur.com/HYWGsTh.png)
+   - 模块依赖图
          - **app**:演示app，根据需要配置需要的相关组件。
          - **basiclib**:基础库，如网络、图片加载、数据库、json、日志等
          - **basicres**:基础资源库，如通用样式，基础图片、selector，基础动画资源等
